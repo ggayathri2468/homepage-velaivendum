@@ -1,0 +1,46 @@
+.backgroundimg{
+   background-image: url("../assests/4858794.jpg");
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+   
+}
+.contect{
+    width: 50%;
+    height: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dp{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black ;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+.backgroundimg {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+        .contect {
+            width: 80%;
+           
+        }
+        .dp{
+            width: 70%;
+        }
+}
